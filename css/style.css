@@ -1,3 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow:400,500,700');
+
 * {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Barlow', sans-serif;
+}
+
+:root {
+    --font-color: #8d8d8d;
+}
+
+.info {
+    list-style: none;
+}
+
+.info a {
+    text-decoration: none;
+    color: var(--font-color);
+}
+
+.info a:hover {
+    color: black;
 }
