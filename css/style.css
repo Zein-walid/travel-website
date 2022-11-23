@@ -4,23 +4,11 @@
     font-family: 'Barlow', sans-serif;
 }
 
-:root {
-    --font-color: #8d8d8d;
-}
-
-.logo span {
-    color: #e83f43;
-}
-
-.info {
-    list-style: none;
-}
-
-.info a {
-    text-decoration: none;
-    color: var(--font-color);
-}
-
-.info a:hover {
-    color: black;
+.home {
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(0, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)), url(https://images.unsplash.com/photo-1442120108414-42e7ea50d0b5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1249&q=80);
+    /*,  */
 }
