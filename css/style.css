@@ -4,6 +4,11 @@
     font-family: 'Barlow', sans-serif;
 }
 
+html {
+    width: 100vw;
+    overflow: hidden;
+}
+
 body {
     width: 100vw;
     position: relative;
